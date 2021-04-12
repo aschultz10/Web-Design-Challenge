@@ -1,20 +1,31 @@
+body {background-color:lightgray; } 
+.navbar{ max-height: 50px; } 
+.navbar-brand{ color: white; 
+    margin-left: 25px; padding: ; 
+    font-size: large; background-color: turquoise; 
+    font-family: Georgia} 
+    background-color: black;} 
+    body { background-color: lightgray; } 
+#nav { background-color: white; } 
 
-/* Body */
-body{
-    background-color: #EDEDED;}
-  /* Navbar */
-.navbar{
-    max-height: 57px; }
+.navbar-brand { color: white; 
+    background-color: turquoise; 
+    font-size: large; 
+    font-weight: bold;
+    font-display: white;
+    padding: 20px;
+    padding-top: 20px; 
+    padding-right: 20px; 
+    padding-bottom: 12px; 
+    padding-left: 20px; 
+    height: 60px; }
 
-.navigation .navbar-brand{
-    color: white; 
-    margin-left: 30px; 
-    padding: inherit; 
-    font-weight: bold; 
-    background-color: #0BADA6;
-    font-family: Georgia, 'Times New Roman', Times, serif;}
-  
-.navbar{
-    background-color: white; 
-    font-size: 15px; 
-  }
+.nav-item #images {
+    display: grid;}
+
+main {
+    background-color:white;}
+
+
+
+      
