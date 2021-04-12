@@ -1,5 +1,5 @@
 body {background-color:lightgray; } 
-.navbar{ max-height: 50px; } 
+.navbar{ max-height: 40px; } 
 .navbar-brand{ color: white; 
     margin-left: 25px; padding: ; 
     font-size: large; background-color: turquoise; 
@@ -13,19 +13,14 @@ body {background-color:lightgray; }
     font-size: large; 
     font-weight: bold;
     font-display: white;
-    padding: 20px;
+    padding: 18px;
     padding-top: 20px; 
-    padding-right: 20px; 
-    padding-bottom: 12px; 
-    padding-left: 20px; 
-    height: 60px; }
+    padding-right: 17px; 
+    padding-bottom: 15px; 
+    padding-left: 17px; 
+    height: 45px; }
 
 .nav-item #images {
     display: grid;}
-
 main {
-    background-color:white;}
-
-
-
-      
+    background-color:white;} 
