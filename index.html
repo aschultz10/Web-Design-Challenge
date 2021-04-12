@@ -20,17 +20,17 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" style="background-color: turquoise;" href="index.html">Latitude</a>
         <!---check w3 for syntax-->
-        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarDropdownMenuLink" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
               
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">Plots
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+               >Plots
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <div class="dropdown-menu">
                 <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
                 <a class="dropdown-item" href="comparison.html">Comparison</a>
                 <a class="dropdown-item" href="data.html">Data</a>
@@ -57,18 +57,21 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-12">
-         <!--this is the landing page, copy&paste short description -->
+         <!--this is the description, copy from instructions -->
         <div class="box">
           <h3 class="title">Summary: Latitude vs. X</h3>
           <hr>
           <img src="Resources/assets/Images/Fig1.png" class="vizualization rounded float-left" alt="Max Temperature">
-          <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To
-            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over
-            500 cities.</p>
-          <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+          <p class = "demopara">
+            The purpose of this project was to analyze how weather changes as you
+            get closer to the equator. To accomplish this analysis, we first pulled
+            data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+
+            <p class = "demopara">After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
             Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
             source data and visualizations created as part of the analysis, as well as explanations and descriptions of
             any trends and correlations witnessed.</p>
+                <hr>
         </div>
       </div>
       <div class="col-lg-4 col-md-12">
@@ -79,7 +82,7 @@
   <!-- Add links to each visualization page, include sidebar -->
 
           <div class="container">
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row" style="padding-bottom: 25px;">
               <div class="col-6">
                 <a href="maxtemp.html">
                   <img class="panel active" src="Resources/assets/Images/Fig1.png" alt="Max Temperature">
@@ -92,7 +95,7 @@
               </div>
             </div>
 
-            <div class="row" style="padding-bottom: 30px;">
+            <div class="row" style="padding-bottom: 25px;">
               <div class="col-6">
                 <a href="cloudiness.html">
                   <img class="panel" src="Resources/assets/Images/Fig3.png" alt="Cloudiness">
